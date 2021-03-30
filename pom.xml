@@ -9,7 +9,7 @@
   </parent>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>material-theme</artifactId>
-  <version>0.3.3-SNAPSHOT</version>
+  <version>0.3.4-SNAPSHOT</version>
   <packaging>hpi</packaging>
   <properties>
     <revision>0.3.0</revision>
@@ -97,7 +97,7 @@
           <wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>
           <wroFile>${basedir}/src/main/config/wro.xml</wroFile>
           <extraConfigFile>${basedir}/src/main/config/wro.properties</extraConfigFile>
-          <targetGroups>core-theme</targetGroups>
+          <targetGroups>light-theme</targetGroups>
           <cssDestinationFolder>${project.build.directory}/../src/main/resources/io/jenkins/plugins/materialtheme/style/</cssDestinationFolder>
           <jsDestinationFolder>${project.build.directory}/../src/main/resources/io/jenkins/plugins/materialtheme/script/</jsDestinationFolder>
           <contextFolder>${basedir}/src/main/webapp/</contextFolder>
